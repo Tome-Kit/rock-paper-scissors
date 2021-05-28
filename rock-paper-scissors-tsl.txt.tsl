@@ -1,0 +1,109 @@
+
+Test Case 1  		<error>
+   Correctness of input :  incorrect
+negative
+
+Test Case 2  		(Key = 1.1.1.0.)
+   Correctness of input :  correct
+   Value of user input  :  rock
+   Point result         :  draw
+   Point counter        :  <n/a>
+negative
+
+Test Case 3  		(Key = 1.1.2.1.)
+   Correctness of input :  correct
+   Value of user input  :  rock
+   Point result         :  computer won point
+   Point counter        :  five points won, game over
+negative
+
+Test Case 4  		(Key = 1.1.2.2.)
+   Correctness of input :  correct
+   Value of user input  :  rock
+   Point result         :  computer won point
+   Point counter        :  not five pointswon, game not over
+negative
+
+Test Case 5  		(Key = 1.1.3.1.)
+   Correctness of input :  correct
+   Value of user input  :  rock
+   Point result         :  user won point
+   Point counter        :  five points won, game over
+negative
+
+Test Case 6  		(Key = 1.1.3.2.)
+   Correctness of input :  correct
+   Value of user input  :  rock
+   Point result         :  user won point
+   Point counter        :  not five pointswon, game not over
+negative
+
+Test Case 7  		(Key = 1.2.1.0.)
+   Correctness of input :  correct
+   Value of user input  :  paper
+   Point result         :  draw
+   Point counter        :  <n/a>
+negative
+
+Test Case 8  		(Key = 1.2.2.1.)
+   Correctness of input :  correct
+   Value of user input  :  paper
+   Point result         :  computer won point
+   Point counter        :  five points won, game over
+negative
+
+Test Case 9  		(Key = 1.2.2.2.)
+   Correctness of input :  correct
+   Value of user input  :  paper
+   Point result         :  computer won point
+   Point counter        :  not five pointswon, game not over
+negative
+
+Test Case 10 		(Key = 1.2.3.1.)
+   Correctness of input :  correct
+   Value of user input  :  paper
+   Point result         :  user won point
+   Point counter        :  five points won, game over
+negative
+
+Test Case 11 		(Key = 1.2.3.2.)
+   Correctness of input :  correct
+   Value of user input  :  paper
+   Point result         :  user won point
+   Point counter        :  not five pointswon, game not over
+negative
+
+Test Case 12 		(Key = 1.3.1.0.)
+   Correctness of input :  correct
+   Value of user input  :  scissors
+   Point result         :  draw
+   Point counter        :  <n/a>
+negative
+
+Test Case 13 		(Key = 1.3.2.1.)
+   Correctness of input :  correct
+   Value of user input  :  scissors
+   Point result         :  computer won point
+   Point counter        :  five points won, game over
+negative
+
+Test Case 14 		(Key = 1.3.2.2.)
+   Correctness of input :  correct
+   Value of user input  :  scissors
+   Point result         :  computer won point
+   Point counter        :  not five pointswon, game not over
+negative
+
+Test Case 15 		(Key = 1.3.3.1.)
+   Correctness of input :  correct
+   Value of user input  :  scissors
+   Point result         :  user won point
+   Point counter        :  five points won, game over
+negative
+
+Test Case 16 		(Key = 1.3.3.2.)
+   Correctness of input :  correct
+   Value of user input  :  scissors
+   Point result         :  user won point
+   Point counter        :  not five pointswon, game not over
+negative

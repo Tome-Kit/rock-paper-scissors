@@ -1,0 +1,27 @@
+# User input
+	Correctness of input:
+		correct. [property input-correct]
+		incorrect. [error]
+	Value of user input:
+		rock. [if input-correct] [property user-rock]
+		paper. [if input-correct] [property user-paper]
+		scissors. [if input-correct] [property user-scissors]
+# Point result
+	Point result:
+		draw. [if input-correct] [property draw]
+		computer won point. [if input-correct] [property computer-won-point]
+		user won point. [if input-correct] [property user-won-point]
+	Draw:
+#		no change in counters and "draw" displayed. [if draw]
+#		change in counters, "draw" not displayed or something else displayed. [error] [if draw]
+	Computer won:
+#		counter of computer incremented, user's counter remained the same and "computer won point" displayed. [if computer-won-point]
+#		counter of computer not incremented or user's counter incremented or "computer won" not displayed or something else displayed. [error] [if computer-won-point]
+	User won:
+#		counter of user incremented, computer's counter remained the same and "user won point" displayed. [if user-won-point]
+#		any other case if user won. [error] [if user-won-point]
+# Game result
+	Point counter:
+		five points won, game over. [if computer-won-point || user-won-point]
+		not five pointswon, game not over. [if computer-won-point || user-won-point]
+		
